@@ -49,6 +49,7 @@ let iconConnection = [
  
 
 function App() {
+  console.log('проверка git');
   return (
     <div className='App'>
         <MyHeader fio = 'Жилин Михаил' title='Portfolio'/>
