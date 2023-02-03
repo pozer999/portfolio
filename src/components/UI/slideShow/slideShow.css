@@ -1,0 +1,16 @@
+.slides {
+  display: flex;
+  justify-content: center;
+}
+
+.slide {
+  position: absolute;
+  visibility: hidden;
+  width: 500px;
+  align-items: center;
+  user-select: none;
+}
+
+.slide.visible {
+  visibility: visible;
+}

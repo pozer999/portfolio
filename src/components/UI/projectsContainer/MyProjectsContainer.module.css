@@ -1,0 +1,29 @@
+.container{
+  height: 289px;
+  width: 90%;
+  margin: 20px auto 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description{
+  height: 100%;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+}
+.title{
+  color:white;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 20px;
+  text-decoration: underline 3px;
+}
+.mySkills{
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+}

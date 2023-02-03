@@ -1,0 +1,31 @@
+.container{
+  width: 80%;
+  height: 400px; 
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto 100px;
+  /* background-color: rgb(228, 207, 162); */
+  border-radius: 20px;
+  /* border: 15px solid  rgb(228, 207, 162); */
+}
+.img{
+  width: 45%;
+  height: 100%;
+  background-color: cadetblue;
+}
+.description{
+  width: 45%;
+  height: 100%;
+  font-size: 25px;
+  font-weight: 400;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+}
+.title{
+  color: #ffffff;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+  margin-top: 20px;
+}
